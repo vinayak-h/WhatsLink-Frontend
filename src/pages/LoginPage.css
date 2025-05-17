@@ -1,0 +1,148 @@
+
+/* Full screen container */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fdf7e9;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Form box */
+.login-box {
+  background-color: #fdf7e9;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Store branding */
+.store-logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.store-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #303433;
+}
+.login-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  color: #303433;
+}
+
+/* Input fields */
+.mobile-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #303433;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otp-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #303433;
+}
+
+/* OTP input boxes */
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.otp-box {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  background-color: #303433;
+  color: #ffffff;
+}
+
+/* Button */
+.submit-button {
+  background-color: #fc8c57;
+  color: white;
+  font-weight: bold;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.resend-text {
+  font-size: 14px;
+  color: #303433;
+}
+.resend-link {
+  color: #fc8c57;
+  cursor: pointer;
+}
+
+/* WhatsLink footer */
+.built-with {
+  font-size: 14px;
+  color: #303433;
+  margin-top: 25px;
+}
+.whatslink-logo {
+  width: 130px;
+  height: auto;
+  margin-top: 5px;
+}
+/* Loader - spiral style */
+.spiral-loader,
+.spiral-loader.small {
+  border: 5px solid #fdf7e9;
+  border-top: 5px solid #fc8c57;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.spiral-loader.small {
+  width: 30px;
+  height: 30px;
+  border-width: 4px;
+}
+
+/* Page-level loader screen */
+.loader-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fdf7e9;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
