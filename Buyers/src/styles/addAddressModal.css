@@ -1,0 +1,59 @@
+/* =================== addAddressModal.css =================== */
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #fef8ec;
+  border-radius: 16px;
+  padding: 24px;
+  width: 500px;
+  max-width: 90%;
+  position: relative;
+  color: black;
+}
+
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.row > input {
+  flex: 1;
+}
+
+input {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: #fff;
+  border: 2px solid #fc8c57;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fc8c57;
+}

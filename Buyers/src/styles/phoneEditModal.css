@@ -1,0 +1,64 @@
+.phone-edit-modal {
+  padding: 2rem;
+  border-radius: 16px;
+  width: 350px;
+  background-color: #fff;
+}
+
+.phone-edit-modal h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.phone-input,
+.otp-inputs {
+  margin-bottom: 1.2rem;
+}
+
+.phone-input input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.otp-section {
+  text-align: center;
+}
+
+.otp-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 1rem 0;
+}
+
+.otp-boxes input {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.get-otp-btn,
+.submit-otp-btn {
+  display: block;
+  width: 100%;
+  background-color: #ff9f5c;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.resend-link {
+  text-align: center;
+  font-size: 0.85rem;
+}

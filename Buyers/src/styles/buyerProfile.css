@@ -1,0 +1,101 @@
+/* Fix for full-page background and layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fdf7e9; /* fallback */
+}
+
+.buyer-profile-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fdf7e9;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  color: #303433;
+
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffcb9a;
+}
+
+
+
+.buyer-profile-header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #303433;
+  margin-bottom: 1rem;
+
+  
+}
+
+.buyer-profile-section {
+  margin-bottom: 1.5rem;
+  
+}
+
+.phone-number-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #ff9f5c;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1.2rem;
+  width: fit-content;
+  
+}
+
+.phone-edit-icon {
+  cursor: pointer;
+  color: #303433;
+}
+
+.address-section {
+  max-height: 50vh; /* LIMIT height */
+  overflow-y: auto; /* Scrollable list */
+  margin-top: 1rem;
+  padding-right: 0.5rem;
+}
+
+.address-list {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  gap: 1rem;
+}
+
+.address-card {
+  background-color: #dcdcdc;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  position: relative;
+  color: #303433;
+}
+
+.address-delete-btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.orders-btn {
+  background: none;
+  border: 2px solid #ff9f5c;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  float: right;
+}

@@ -1,0 +1,58 @@
+.price-summary {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 280px;
+}
+
+.price-summary h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303433;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #303433;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 16px;
+  color: #303433;
+}
+
+.summary-buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.shop-more {
+  background: white;
+  border: 2px solid #fc8c57;
+  color: #fc8c57;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-now {
+  background-color: #fc8c57;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}

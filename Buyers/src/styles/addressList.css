@@ -1,0 +1,22 @@
+.address-list {
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.address-item {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  background: #d3d3d3;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: flex-start;
+  color: #303433;
+}
+
+.address-item.selected {
+  border: 2px solid #0052cc;
+}
